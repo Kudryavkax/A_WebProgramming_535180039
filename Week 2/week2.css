@@ -1,0 +1,38 @@
+body {
+    background-color: snow;
+}
+
+h1 {
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*
+p {
+    color: green;
+}
+*/
+/* ini cara comment di css */
+
+/* Class Selector*/
+.intense {
+    color: red;
+}
+
+.calm {
+    color: lightskyblue;
+}
+
+.menacing {
+    color: purple;
+}
+
+/* ID Selector **per halaman harusnya cuman boleh dipake 1x per id*/
+#footer {
+    color: coral;
+    border: 1px solid black;
+}
+
+div > p {/*untuk p di dalam div*/
+    color: white;
+    background-color: black;
+}
